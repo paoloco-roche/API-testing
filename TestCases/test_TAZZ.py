@@ -2,6 +2,7 @@ import requests
 import json
 import jsonpath
 import pytest
+import re
 
 #API url
 
@@ -39,7 +40,5 @@ def xtest_TAZZ_ndpi_thumbnail():
 
     #4. future, create image diff
 
-
-    
 
 
